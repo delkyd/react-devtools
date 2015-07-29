@@ -96,12 +96,6 @@ class Container extends React.Component {
         <ContextMenu itemSources={[DEFAULT_ITEMS, this.props.menuItems]} />
       </div>
     );
-    /*
-    if (this.state.showSettings) {
-    }
-    return (
-    );
-    */
   }
 }
 
